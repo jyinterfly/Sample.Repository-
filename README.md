@@ -27,3 +27,6 @@ To start the server run:
 ## Reference
 
 http://brianflove.com/2016/11/08/typescript-2-express-node/
+
+## Call C# dll 
+
