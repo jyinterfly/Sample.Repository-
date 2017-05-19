@@ -1,18 +1,29 @@
-# Sample.Repository-
+# TypeScript 2 + Express + Node.js + mocha
 
-This is a repository to go with my article on creating an C# library
+This is a repository to go with my article on creating an Express web application using TypeScript 2.
 
-Let Node.Js Call DLL
+mocha is used to Unit Test.
 
-## Connection
+## Install
 
-Set Connection string in IDatabaseConfig.cs
+Install the node packages via:
 
-## EndPoint
+`$ npm install`
 
-Create endpoint in endpoint.cs and let node.js call 
+And then run the grunt task to compile the TypeScript:
 
-## Logic
+`$ npm run grunt`
 
-You can create a respository by useing different instance like sql , dapper and write logic in service
+## Starting
 
+To start the server run:
+
+`$ npm start`
+
+## Unit Test 
+
+`$ npm test`
+
+## Reference
+
+http://brianflove.com/2016/11/08/typescript-2-express-node/
